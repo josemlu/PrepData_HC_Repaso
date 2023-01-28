@@ -28,7 +28,24 @@ def ProximoPrimo(actual_primo):
         ProximoPrimo(8) debe retornar nulo
     '''
     #Tu código aca:
-    return 'Función incompleta'
+    def primo(n):
+        primo = True
+        for i in range(2,n):
+            if (n%i==0):
+                primo = False
+                break
+        return primo
+
+    if type(actual_primo)!=int :
+        return None
+    elif primo(actual_primo)==False:
+        return None
+    else:
+        siguiente_primo = actual_primo+1
+        while(primo(siguiente_primo)==False):
+            siguiente_primo+=1
+
+    return siguiente_primo
 
 def ClaseAnimal(especie, color):
     '''
