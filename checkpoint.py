@@ -66,6 +66,16 @@ def ClaseAnimal(especie, color):
         a.CumpliAnios() -> debe devolver 3
     '''
     #Tu código aca:
-    return 'Función incompleta'
+    class Animal:
+        def __init__(self,especie,color):
+            self.color = color
+            self.especie = especie
+            self.edad = 0
+        
+        def CumplirAnios(self):
+            self.edad += 1 #self.edad = self.edad + 1
+            return self.edad
+        
+    return Animal(especie, color)
 
 
