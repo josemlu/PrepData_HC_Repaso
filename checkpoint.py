@@ -10,8 +10,12 @@ def DividirDosNumeros(dividendo, divisor):
     Ej:
         DividirDosNumeros(10,3) debe retornar 3, 1
     '''
+    parte_entera = None
+    resto = None
     #Tu código aca:
-    return 'Función incompleta'
+    resto = dividendo%divisor
+    parte_entera = dividendo//divisor
+    return parte_entera, resto
 
 def ProximoPrimo(actual_primo):
     '''
