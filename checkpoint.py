@@ -12,6 +12,7 @@ def DividirDosNumeros(dividendo, divisor):
     '''
     parte_entera = None
     resto = None
+    
     #Tu código aca:
     resto = dividendo%divisor
     parte_entera = dividendo//divisor
