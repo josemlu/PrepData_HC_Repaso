@@ -47,6 +47,7 @@ def ProximoPrimo(actual_primo):
             siguiente_primo+=1
 
     return siguiente_primo 
+    
 
 def ClaseAnimal(especie, color):
     '''
