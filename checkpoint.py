@@ -46,7 +46,7 @@ def ProximoPrimo(actual_primo):
         while(primo(siguiente_primo)==False):
             siguiente_primo+=1
 
-    return siguiente_primo
+    return siguiente_primo 
 
 def ClaseAnimal(especie, color):
     '''
